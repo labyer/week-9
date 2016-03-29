@@ -34,6 +34,7 @@ body {
 }
 
 #toggle-sidebar {
+  visibility: hidden;
   position: absolute;
   right: 10px;
   top: 60px;
@@ -45,10 +46,31 @@ body {
   display: block;
 }
 
-@media screen and (min-width: 480px) and (max-width: 800px) {
 
+
+@media screen and (min-width: 480px) and (max-width: 800px) {
+  .sidebar {
+    width: 220px;
+  }
 }
 
-@media screen and (max-width: 479px) {
 
+@media screen and (max-width: 479px) {
+  .map {
+    right: 0;
+    left: 0;
+  }
+  .sidebar {
+    visibility: hidden;
+  }
+  .sidebar-open .sidebar {
+    visibility: visible;
+    width: 100%;
+  }
+  .sidebar-open .map {
+    display:none;
+  }
+  #toggle-sidebar {
+    visibility: visible;
+  }
 }

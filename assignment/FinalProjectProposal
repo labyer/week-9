@@ -1,0 +1,18 @@
+How can we improve bicyle safety in Philadelphia? - Highlight city fatalities by mapping crash locations and showing data on the victime, giving a name and story to the victim so they are seen as a person and not just a statistic.
+
+Create a webb-map similar to WYNC Mean Streets website for Philly. Using data on fatalities fromthe Philadelphia Police Department and Bicycle Coalition.
+
+The Aplication:
+ 
+
+    the simple interface with the icons for the victim type.
+    the ability to input more details regarding the victim.
+    the ability to sort fatalities by borough and victim type.
+    the bar that shows the percentage when using the sort feature (i.e. % child victims).
+    the links to news stories about the crash.
+    the street view picture showing the approximate location of the crash.
+    in Philadelphia we would use City Council District rather than borough
+    include a small map with the street view 
+    include a separate searchable overall map
+
+I envision the standard map/sidebar layout. The map shows the location points with different icons indicating victim type. Filters to view various attributes (gender, type of crash, age, etc.). Clicking on a point brings up the crash information in the sidebar.

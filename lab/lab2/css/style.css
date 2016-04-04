@@ -68,3 +68,17 @@ body {
     font-size: 14px;
     font-weight: bold;
 }
+
+button {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 28px;
+}
+
+
+
+.btn-danger {
+  background-color: #2a4f6e;
+  border-radius: 2px;
+  border: none;
+  font-size: 20px;
+}
